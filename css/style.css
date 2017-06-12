@@ -1,0 +1,141 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+*{
+	font-family: 'Quicksand', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+a.navbar-brand h1{
+	color: white;
+	font-size: 1.5em;
+	margin: -5px;
+	font-weight: 700;
+}
+ul.nav.navbar-nav li a{
+	color:white;
+}
+ul.nav.navbar-nav li a:hover, a.navbar-brand h1:hover{
+	color: #41521F;
+}
+.first-section{
+	background-image: url(../img/portada.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: transparent;
+}
+.navbar-inverse {
+    background-color: transparent;
+    border: none;
+}
+/* bienvenida*/
+.box-1{
+	padding: 5em;
+	color: white;
+	margin-top: 12em;
+}
+button.btn.btn-default.btn-lg{
+	background-color: #41521F;
+	color: white;
+	border:none;
+}
+/*fundation*/
+.foundation{
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+#koala-foundation{
+	margin-top: 4em;
+}
+/*info foundation*/
+h3{
+	color: #A89F68;
+	font-weight: 700;
+}
+p.foundation-text{
+	color:black;
+}
+/*easy help*/
+h4, p.koala-help{
+	color:white;
+}
+div.box-help{
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+section.easy-help{
+	background-color: #A89F68;
+}
+/*sect 4 help koalas*/
+.help-koalas{
+	background-image: url(../img/all.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: transparent;
+}
+div.col-xs-offset-0.col-xs-12.col-md-offset-6.col-md-6.text-help-koalas{
+	margin-top: 4em;
+}
+.text-help-koalas h6, h4, p{
+	color: white;
+}
+.text-help-koalas h4, a{
+	font-weight: 700;
+}
+/*seccion 5 we can help*/
+section.we-can-help{
+	margin-top: 8em;
+	margin-bottom: 8em;
+}
+section.we-can-help p, i, a{
+	color: #A89F68;
+}
+section.we-can-help h2{
+	color: #A89F68;
+	font-weight: 700;
+	margin-bottom: 1em;
+}
+/*seccion 6 donaciones*/
+section.donations{
+	background-color: #A89F68;
+	padding-top: 5em;
+	padding-bottom: 5em;
+}
+div.jumbotron.text-center{
+	background: transparent;
+}
+section.donations h2{
+	color: #41521F;
+	font-weight: 700;
+}
+section.donations a{
+	background-color: #41521F;
+	color:white;
+}
+a.btn.btn-default.btn-lg{
+	border:none;
+}
+/*footer*/
+footer{
+	background-color: #41521F;
+	padding: 4em;
+}
+footer h4{
+	color: #A89F68;
+	font-weight: 700;
+}
+footer ul{
+	margin: 2em;
+}
+footer ul li{
+	list-style: none;
+}
+/*firma*/
+.firma{
+	background-color: #A89F68;
+	color:white;
+}
