@@ -139,3 +139,16 @@ footer ul li{
 	background-color: #A89F68;
 	color:white;
 }
+/*segunda parte*/
+
+#collapseExample {
+   margin: 1em 0 0;
+}
+#collapseExample .well {
+	background-color: #41521F;
+   border: none;
+   color: #fff;
+}
+#collapseExample .well p {
+    margin: 0;
+}

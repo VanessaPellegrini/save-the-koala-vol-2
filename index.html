@@ -15,7 +15,7 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top">
 			<div class="container">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapsed">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -25,7 +25,7 @@
 						<h1>Save The Koala</h1>
 					</a>
 				</div>
-				<div class="navbar-collapse collapse navbar-right">
+				<div class="navbar-collapse collapse navbar-right" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li><a href="#foundation">Foundation</a></li>
 						<li><a href="#koalas">Koalas</a></li>
@@ -41,7 +41,8 @@
 				<p class="first-text">
 					Koalas are declining in rapid numbers because the trees where they spend a majority of their time are being quickly chopped down. Activists need to take action to try and protect these animals’ habitats so they do not become a thing of the past.
 				</p>
-				<button class="btn btn-default btn-lg">See more</button>
+				<!--2.0 cambio boton-->
+				<button class="btn btn-default btn-lg" data-toggle="tooltip" data-placement="bottom" title="Our best chance at saving the Koala species is YOU! ">See more</button>
 			</div>
 		</div>
 	</section>
@@ -86,7 +87,22 @@
 					<p class="koala-help">
 						Loss of koala habitat is the major threat facing koalas today. Since white settlement of Australia, roughly 80% of the koala’s habitat has been destroyed and of what remains, most occurs on privately owned land and almost none is protected.
 					</p>
-					<button class="btn btn-default btn-lg">Read more</button>
+					<!--2.0 cambio boton - agregar modal-->
+					<button class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">Read more</button>
+				</div>
+			<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+				  <div class="modal-dialog" role="document">
+				    <div class="modal-content">
+				      <div class="modal-header">
+				        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+				        <h2 class="modal-title" id="myModalLabel">ERROR 400</h2>
+				      </div>
+				      <div class="modal-footer">
+				        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				      </div>
+				    </div>
+				  </div>
 				</div>
 				<div class="col-xs-12 col-md-6">
 					<img src="img/cosita.jpg" alt="Koala easy help" class="img-thumbnail">
@@ -143,6 +159,7 @@
 					</div>
 				</div>
 			</div>
+			<!--2.0 carousel-->
 		</div>
 	</section>
 	<!--seccion 6 donations-->
@@ -191,10 +208,11 @@
 						<p><b>3</b> visits per month</p>
 						<hr>
 						<p><b>Public API</b> access</p>
-						<a class="btn btn-default btn-lg" href="#">DONATE</a>
+						<button type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn btn-default btn-lg">DONATE</button>
 					</div>
 				</div>
 			</div>
+			 <!--2.0 collapse-->
 		</div>
 	</section>
 	<!--footer-->
@@ -232,9 +250,10 @@
 	<div class="firma text-center">
 		<p>Desarrollado y reproducido por Vanessa Pellegrini - 2017</p>
 	</div>
-	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<!--script-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
 </body>
 </html>
